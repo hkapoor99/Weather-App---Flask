@@ -18,7 +18,7 @@ def index():
 			latitude = int(data1['results'][0]['geometry']['location']['lat'])
 			longitude = int(data1['results'][0]['geometry']['location']['lng'])
 
-			PARAM2 = {'lat':latitude, 'lon':longitude, 'APPID':'5884133c2d7433f945dcb2c327f2c857'}
+			PARAM2 = {'lat':latitude, 'lon':longitude, 'APPID':[Enter APP ID Here]}
 
 
 			URL2 = "http://api.openweathermap.org/data/2.5/weather"
