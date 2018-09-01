@@ -36,5 +36,3 @@ def index():
 if __name__ == "__main__":
 	app.run(port=8000, debug=True, use_reloader=True)
 	
-
-#, 'key':'AIzaSyDdCj7FYGOfsxHDKJUs8_pua51kAHNU4v0'}
